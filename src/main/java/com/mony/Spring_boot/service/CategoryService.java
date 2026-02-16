@@ -24,7 +24,7 @@ public class CategoryService {
         return repository.save(c);
     }
 
-    public List<Category> getAll() {
+    public List<com.mony.Spring_boot.model.Category> getAll() {
         return repository.findAll();
     }
 
